@@ -1,0 +1,93 @@
+!!index array str
+ "BAL"
+!entry.BAL.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.3946922
+ "H" "H" 0 1 131072 2 1 0.2547068
+ "CB" "CT" 0 1 131072 3 6 -0.1086522
+ "HB1" "H1" 0 1 131072 4 1 0.1098378
+ "HB2" "H1" 0 1 131072 5 1 0.1098378
+ "CA" "CT" 0 1 131072 6 6 -0.1798602
+ "HA1" "H1" 0 1 131072 7 1 0.1036078
+ "HA2" "H1" 0 1 131072 8 1 0.1036078
+ "C" "C" 0 1 131072 9 6 0.5570748
+ "O" "O" 0 1 131072 10 8 -0.5554682
+!entry.BAL.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "HB1" "H1" 0 -1 0.0
+ "HB2" "H1" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "HA1" "H1" 0 -1 0.0
+ "HA2" "H1" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.BAL.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.BAL.unit.childsequence single int
+ 2
+!entry.BAL.unit.connect array int
+ 1
+ 9
+!entry.BAL.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 3 1
+ 1 2 1
+ 3 6 1
+ 3 5 1
+ 3 4 1
+ 6 9 1
+ 6 7 1
+ 6 8 1
+ 9 10 1
+!entry.BAL.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+!entry.BAL.unit.name single str
+ "BAL"
+!entry.BAL.unit.positions table  dbl x  dbl y  dbl z
+ 2.272253 3.006793 -0.694010
+ 2.043081 3.950322 -0.416457
+ 3.537651 2.456419 -0.252301
+ 4.204512 2.348733 -1.107503
+ 3.370247 1.479384 0.201564
+ 4.173251 3.390475 0.773686
+ 3.523751 3.464699 1.646363
+ 4.288712 4.383049 0.338633
+ 5.538065 2.875648 1.208108
+ 6.016525 1.869026 0.690962
+!entry.BAL.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 9 0 0 0 0
+!entry.BAL.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "BAL" 1 13 1 "p" 0
+!entry.BAL.unit.residuesPdbSequenceNumber array int
+ 1
+!entry.BAL.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.BAL.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
